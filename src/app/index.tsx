@@ -1,7 +1,10 @@
 import { Text } from "react-native";
 
 const Index = () => {
-  return <Text>This is the HomePage</Text>;
+  return <Greet />;
 };
 
+const Greet = () => {
+  return <Text>Hello, World!</Text>;
+};
 export default Index;
