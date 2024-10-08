@@ -1,10 +1,8 @@
 import { Text } from "react-native";
+import Greet from "../components/Greet";
 
 const Index = () => {
   return <Greet />;
 };
 
-const Greet = () => {
-  return <Text>Hello, World!</Text>;
-};
 export default Index;
