@@ -1,17 +1,14 @@
 import { Text, View } from "react-native";
-import Greet from "../components/NameComponent";
-import NameComponent from "../components/NameComponent";
-import AgeComponent from "../components/AgeComponent";
-import XHandle from "../components/XHandle";
-import SubjectComponent from "../components/SubjectComponent";
+import TextComponent from "../components/TextComponent";
+import ViewComponent from "../components/ViewComponent";
+import ButtonComponent from "../components/ButtonComponent";
 
 const Index = () => {
   return (
     <View>
-      <NameComponent />
-      <AgeComponent />
-      <XHandle />
-      <SubjectComponent />
+      <TextComponent />
+      <ViewComponent />
+      <ButtonComponent />
     </View>
   );
 };

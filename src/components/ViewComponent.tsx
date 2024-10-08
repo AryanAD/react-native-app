@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const SubjectComponent = () => {
+const ViewComponent = () => {
   return (
     <View>
-      <Text>I Love Computers</Text>
+      <Text>This is inside the view component</Text>
     </View>
   );
 };
 
-export default SubjectComponent;
+export default ViewComponent;
