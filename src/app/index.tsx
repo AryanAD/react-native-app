@@ -1,16 +1,10 @@
 import { Text, View } from "react-native";
-import AgeComponent from "../component/AgeComponent";
-import FavSubjectComponent from "../component/FavSubjectComponent";
-import NameComponent from "../component/NameComponent";
-import XHandleComponent from "../component/XHandleComponent";
+import CardComponent from "../component/CardComponent";
 
 const Index = () => {
   return (
     <View>
-      <AgeComponent />
-      <FavSubjectComponent />
-      <NameComponent />
-      <XHandleComponent />
+      <CardComponent />
     </View>
   );
 };
