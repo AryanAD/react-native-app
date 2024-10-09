@@ -2,6 +2,7 @@ import { Text, View } from "react-native";
 import TextComponent from "../components/TextComponent";
 import ViewComponent from "../components/ViewComponent";
 import ButtonComponent from "../components/ButtonComponent";
+import PressableComponent from "../components/PressableComponent";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <TextComponent />
       <ViewComponent />
       <ButtonComponent />
+      <PressableComponent />
     </View>
   );
 };
