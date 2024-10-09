@@ -1,10 +1,14 @@
 import { Text, View } from "react-native";
-import CardExampleComponent from "../component/CardExampleComponent";
+import InlineStyle from "../component/InlineStyle";
+import InternalStyle from "../component/InternalStyle";
+import ExternalStyle from "../component/ExternalStyle";
 
 const Index = () => {
   return (
     <View>
-      <CardExampleComponent />
+      <InlineStyle />
+      <InternalStyle />
+      <ExternalStyle />
     </View>
   );
 };
