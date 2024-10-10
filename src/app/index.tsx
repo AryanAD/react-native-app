@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
-import CardComponent from "../component/CardComponent";
+// import ListData from "../component/ListData";
+import ArrayOfObject from "../component/ArrayOfObject";
 
 const Index = () => {
   return (
     <View>
-      <CardComponent />
+      {/* <ListData /> */}
+      <ArrayOfObject />
     </View>
   );
 };
